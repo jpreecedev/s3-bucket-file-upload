@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/S3BucketFileUpload/S3BucketFileUpload.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
