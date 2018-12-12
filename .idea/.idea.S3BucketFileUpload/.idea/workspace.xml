@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06360a4b-9597-49d1-a7de-a0c881aff25d" name="Default Changelist" comment="" />
+    <list default="true" id="06360a4b-9597-49d1-a7de-a0c881aff25d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/S3BucketFileUpload/Controllers/UploadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/S3BucketFileUpload/Controllers/UploadController.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/S3BucketFileUpload/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <marker date="1544622454985" expanded="false" signature="6:296" ph="..." />
                 <marker date="1544622454985" expanded="true" signature="326:2173" ph="{...}" />
@@ -52,6 +54,49 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/S3BucketFileUpload/Controllers/UploadController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <folding>
+                <marker date="1544630071763" expanded="true" signature="6:352" ph="..." />
+                <marker date="1544630071763" expanded="true" signature="394:3177" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="475:3175" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="611:685" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="751:1901" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="990:1078" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="1156:1864" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="1385:1850" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="1969:3169" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="2168:3102" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="2262:3088" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="2349:3070" ph="{...}" />
+                <marker date="1544630071763" expanded="true" signature="2528:2809" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S3BucketFileUpload/Controllers/SampleDataController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <marker date="1544622454972" expanded="true" signature="6:128" ph="..." />
+                <marker date="1544622454972" expanded="true" signature="170:1240" ph="{...}" />
+                <marker date="1544622454972" expanded="true" signature="255:1238" ph="{...}" />
+                <marker date="1544622454972" expanded="true" signature="320:442" ph="{...}" />
+                <marker date="1544622454972" expanded="true" signature="537:890" ph="{...}" />
+                <marker date="1544622454972" expanded="true" signature="674:878" ph="{...}" />
+                <marker date="1544622454972" expanded="true" signature="928:1232" ph="{...}" />
+                <marker date="1544622454972" expanded="true" signature="1127:1222" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -59,6 +104,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/S3BucketFileUpload/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/S3BucketFileUpload/Controllers/UploadController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/S3BucketFileUpload/Controllers/SampleDataController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -75,7 +125,9 @@
     <option name="width" value="1920" />
     <option name="height" value="1058" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -93,6 +145,12 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="S3BucketFileUpload" type="24d0babc:SolutionExplorerModelNode" />
               <item name="S3BucketFileUpload" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="S3BucketFileUpload" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="S3BucketFileUpload" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -156,7 +214,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324000" />
+    <option name="totallyTimeSpent" value="326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -168,33 +226,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-348" width="1920" height="1058" extended-state="0" />
+    <frame x="1440" y="-348" width="1920" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" weight="0.32919255" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32919255" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32919255" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32608697" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36853004" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32919255" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32919255" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="REST Client" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32919255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +268,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/S3BucketFileUpload/Controllers/UploadController.cs</url>
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/S3BucketFileUpload/Controllers/UploadController.cs" initialLine="55">
+            <startOffsets>
+              <option value="1879" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1891" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -217,7 +288,7 @@
     <entry file="file://$PROJECT_DIR$/S3BucketFileUpload/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <marker date="1544622454985" expanded="false" signature="6:296" ph="..." />
             <marker date="1544622454985" expanded="true" signature="326:2173" ph="{...}" />
