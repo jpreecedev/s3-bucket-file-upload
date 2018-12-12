@@ -28,7 +28,7 @@ namespace S3BucketFileUpload.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var keyName = "b1d173c7-4dae-469e-9fdf-a5b999ca7f79/osggsl1l.4wk";
+            var keyName = "2943bc3a-5001-4636-ada6-a7a5b9b02532/tijtssq5.yhv";
 
             // Build the request with the bucket name and the keyName (name of the file)
             var request = new GetObjectRequest
@@ -40,8 +40,6 @@ namespace S3BucketFileUpload.Controllers
             using (var client = new AmazonS3Client(RegionEndpoint.USEast1))
             {
                 using (var response = await client.GetObjectAsync(request))
-                using (var responseStream = response.ResponseStream)
-                using (var reader = new StreamReader(responseStream))
                 {
                     var title = response.Metadata["x-amz-meta-title"];
                     var filename = response.Metadata["x-amz-meta-filename"];
@@ -49,7 +47,11 @@ namespace S3BucketFileUpload.Controllers
 
                     Console.WriteLine($"Object meta, Title: {title}");
                     Console.WriteLine($"Content type, Title: {contentType}");
-                    var responseBody = reader.ReadToEnd();
+
+                    var stream = new MemoryStream();
+                    response.ResponseStream.CopyTo(stream);
+                    stream.Position = 0;
+                        return File(stream, contentType, filename);
                 }
             }
 
@@ -81,7 +83,7 @@ namespace S3BucketFileUpload.Controllers
                             CannedACL = S3CannedACL.PublicRead,
                         };
 
-                        uploadRequest.Metadata.Add("FileName", file.FileName);
+                        uploadRequest.Metadata.Add("x-amz-meta-filename", file.FileName);
 
                         var fileTransferUtility = new TransferUtility(client);
                         await fileTransferUtility.UploadAsync(uploadRequest);
